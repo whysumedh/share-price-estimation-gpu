@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPU Share Price Estimation</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="{{url_for('static',filename='logo.png')}}" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About The Project</a></li>
+                <li><a href="predict.html">Predict</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="acontent">
+        <h1> About The Project </h1>
+        <dic class="abt">
+            <p>This project applies a Linear Regression model to predict closing share prices of top 5 GPU companies. The model, trained on historical data, learns the relationship between factors like opening price, highest and lowest prices within a trading day, volume of shares traded, and the closing price.
+                Once trained, it predicts future closing prices. However, stock price prediction is inherently uncertain and should be used cautiously. Other factors like market trends, economic indicators, and company news should also be considered in investment decisions.
+                The project includes a web interface for users to input data and get predicted closing prices, making it accessible to a wide range of users. This project demonstrates how machine learning can provide valuable insights from complex financial data.
+           </p>
+        </dic>
+        <div class="doneby">
+            <p>Done by, 
+                <br>Sai Sumedh K 
+            </p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

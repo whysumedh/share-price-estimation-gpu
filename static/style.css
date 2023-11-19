@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #f0f0f0;
+}
+.content{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.content p{
+    margin: 10px auto;
+    font-weight: 100;
+    line-height: 5px;
+}
+.acontent{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #f0f0f0;
+}
+.acontent{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0.5;
+    width: 40%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+form input[type="text"], form select {
+    width: 100%;
+    padding: 5px;
+}
+form label {
+    margin-bottom: -20px;
+    color: #ffffff
+}
+
+form input[type="submit"] {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.prediction-box {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+}
+
+.prediction-box h2 {
+    color: #0c0c0c; 
+}
+.doneby{
+    position: relative;
+    bottom: -260px;
+    font-size: 16px;
+}
+
+.abt{
+    position: relative;
+    font-size: 28px;
+    bottom:-80px;
+    width: 50%; 
+    padding: 10px; 
+    border: 1px solid #000; 
+    margin: auto;
+}
